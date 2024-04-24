@@ -1,17 +1,15 @@
 .encabezado{
-    background-color: rgb(140, 197, 197); 
+    background-color: rgb(136, 169, 189); 
+    border: solid 1px;
+    border-color: beige;
+
 }
 
-.encabezado1{
-    background-color: rgb(105, 129, 175); 
-}
 
 
 
-div{
-    background-color: rgb(190, 208, 243); 
-
-
+.col{
+    background-color: rgb(164, 175, 197); 
     border: solid 1px;
     border-color: beige;
 
@@ -19,8 +17,7 @@ div{
 
 #respuesta, #base, #iva{
     background-color: rgb(105, 129, 175); 
-    width: 100%;
-    height: 75%;
+
 
     border: solid 1px;
     border-color: beige;
