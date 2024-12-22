@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 @media  (max-width:740px){
     body,.contenido,.col-4{
         width: 90%;
@@ -5,63 +11,79 @@
         }
     
 .background {
-    background-image: url(../img/fondo_pagina.jpg);
+    /*background-image: url(../img/fondo_pagina.jpg);*/
+    background-color: rgb(3, 19, 41);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-left: 3%;
-    margin-right: 3%;
+    color: azure;
+
 }
 
-
 .img_per{
-width: 20%;
-height: 10%;    
-margin-top: 1%;
-margin-left: 30%;
-border-radius: 50% ;
+width: 150px;
+height: 175px;    
+border-radius: 50px ;
 border-color: rgb(245, 247, 247);
 border-style: solid;
 box-shadow: 50%;
-color: rgb(39, 61, 167);
 }
+
+.box0{
+   
+    color:black;
+    height: 150px;
+    margin-top: 10px;
+  display: flex;
+  padding: 20px;
+  background-color: azure;
+  border-radius: 50px ;
+}
+
+.box1{
+ 
+        margin-top: -125px;
+        width: 350px;
+        display: flex;
+        height: 50vh;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        }
+.box2{
+    margin-top: -125px;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ }
+ .box3{
+    margin-top: -50px;
+    width: 300px;
+    display: flex;
+    height: 50vh;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ }
+ .box4{
+    margin-top: -50px;
+    display: flex;
+    height: 50vh;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ }
+
 
 .contenido{
-margin-top: 4%;
-} 
 
-p,li{
-font-size: 90%;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: rgb(43, 58, 122);
-}
-
-h1,h2,h3,h4{
-background-color:  rgb(249, 250, 252);
-color: rgb(43, 58, 122);
-border-radius: 5%;
+    margin-top: 50px;
 
 }
 
-.iframe1{
-    
-    align-content: center;
-        padding:1%; 
-        width:100%; 
-        display: inline-flex; 
-        border-radius: 2%; 
-        max-height: 90px;
-      
-    }
-    
-.iframe2{
-margin-top:-3%;
-    align-content: center;
-   padding:1%; 
-    width:100%; 
-    display: inline-flex; 
-    border-radius: 2%; 
-    max-height: 100%;
-  
-}
 
